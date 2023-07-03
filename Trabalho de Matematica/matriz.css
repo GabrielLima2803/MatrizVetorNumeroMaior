@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-image: url('https://user-images.githubusercontent.com/43012445/105452071-411e4880-5c43-11eb-8ae2-4de61f310bf9.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+
+}
+
+header{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 40px;
+}
+
+#colunas {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 18px;
+}
+
+#linhas {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 29px;
+}
+
+.aparecergamer {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#ContainerMatrizPrincipal {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    margin: 0 auto;
+    border-style:groove;
+}
+
+button { 
+    border: 3px white solid;
+    color: white;
+    background-color: transparent;  
+    color: white;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: 'Ysabeau SC', sans-serif;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    font-size: 50px;
+}
+
+button:hover {
+    transition: 0.6s;
+    color: rgb(61, 219, 106);
+  }
